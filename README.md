@@ -41,8 +41,6 @@ WholeBIF-RDB
 ```
 
 ## Links
-Compatibility Matrix
-
 [Release History](RELEASE.md)
 
 Motif Library

@@ -2,12 +2,12 @@
 This repository provides release information for BRA (Brain Reference Architecture) Template and related tools.
 
 ## Latest Release
-**BRA 2.2** (Released: 2025-08-03) [BRAES](https://sites.google.com/wba-initiative.org/braes/) accepts submissions in the following versions:
+**BRA 2.3** (Released: 2026-10-13) [BRAES](https://sites.google.com/wba-initiative.org/braes/) accepts submissions in the following versions:
 
 |Component|Download|
 |---------|--------|
-|Template-v2-2.bra|[Link (Google Sheets)](https://docs.google.com/spreadsheets/d/1l3pDJaEAmQWwdQi0rcSETjBqeL1Q4AmMtEug90yJ1Fg/edit?usp=drive_link)　Once you open the link, copy it to your Google Drive.|
-|BRA Data Review Tool (ver. 4.2) for v2-2|[Link (Google Sheets)](https://docs.google.com/spreadsheets/d/1KWo73IzeepZpJbIF5kUhHFxwuiKXNUkMtx-uOmDy_Xk/edit?usp=drive_link)　Once you open the link, copy it to your Google Drive.|
+|Template-v2-3.bra|[Link (Google Sheets)](https://docs.google.com/spreadsheets/d/1JL20faP7RVK1yTknnHVEXuJsT3eqL3mz-8oI3YiLYZY/edit)　Once you open the link, copy it to your Google Drive.|
+|BRA Data Review Tool (ver. 4.4) for v2-3|[Link (Google Sheets)](https://docs.google.com/spreadsheets/d/1WUluP0EypAOVZItxCH0Oea1g4_XfLb4Js8jRYQNQlho/edit)　Once you open the link, copy it to your Google Drive.|
 |BRA data: Error code List (Master)|[Link (Google Sheets)](https://docs.google.com/spreadsheets/d/1mCQOmjBRIx-k12a2x8uV3aSKKZ5dDW0na4bVnZtAzhM/edit?usp=drive_link)|
 
 ### Manuals
@@ -22,8 +22,11 @@ This repository provides release information for BRA (Brain Reference Architectu
 |Component|Link|
 |---------|--------|
 |WholeBIF|[Link (Google Sheets)](https://docs.google.com/spreadsheets/d/1Wt7pJKpi_mVKUeyziPuKcXQwB10u8b0T6RCz8gNe9fc/edit?usp=drive_link)|
-|WholeBIF-RDB||
-|BDBRA||
+
+### BRA Data Tool
+|Component|Link|
+|---------|--------|
+|BRA Data Converter to v2-3 (tool ver. 2.1)|[Link (Google Sheets)](https://docs.google.com/spreadsheets/d/1eEeT3F3Y3RGQVg_fsAodLoqZnQvydrMcLQRl61qptAY/edit?usp=drive_link)|
 
 ## Component Relationships
 ```
@@ -32,12 +35,6 @@ Template ◄──1:1──► Review Tool
     │ references       │ references
     ▼                  ▼
 WholeBIF          Error Code
-    ▲
-    │ generated from
-WholeBIF-RDB
-    ▲
-    │ stored in
-  BDBRA
 ```
 
 ## Links
@@ -49,4 +46,3 @@ Motif Library
 [WBAI Official Website](https://wba-initiative.org/)
 
 About BRA-Driven Development
-

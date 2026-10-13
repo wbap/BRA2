@@ -16,6 +16,9 @@
     - Motif Info.
     - Capability&Mechanism (Suggested by Motif)
 
+#### TODO
+- FRG Checker修正（FRGシートの列追加のため）
+
 ### BRA Data Review Tool
 #### Resource
 - [BRA Data Review Tool (ver. 4.X) for v2-4 (Google Sheets)]

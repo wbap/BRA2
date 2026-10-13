@@ -1,28 +1,24 @@
 # Release History
 
-## BRA 2.3 （2026-XX-XX）
+## BRA 2.4 （202X-XX-XX）
 
 ### BRA Template
 #### Resource
-- [Template-v2-3.bra (Google Sheets)](https://docs.google.com/spreadsheets/d/1JL20faP7RVK1yTknnHVEXuJsT3eqL3mz-8oI3YiLYZY/edit?usp=drive_link)
+- [Template-v2-4.bra (Google Sheets)]
   - Attached container-bound scripts: メニューから 拡張機能 > Apps Script で表示
     - Hosting scripts source code on [GitHub Repository](https://github.com/yoshi-ono/BRA-Template-AppsScript)
 
 #### Main changes
-- Menu Function
-  - "FRG Checker (LLM)" 機能を追加
 - FRGシート
-  - Capability&Mechanism列へのCoding scheme情報記述の仕様追加
-- WholeBIF
-  - WholeBIF-RDBから出力される新しいWholeBIFファイルをインポート（データ量が大幅増）
-- Connectionsシート
-  - 新しいWholeBIFに合わせた列名変更
-    - Method score → Method score (PDER) 
-    - Journal score → Citation sentiment index
+  - 入力項目の追加
+    - Motif ID
+  - 自動計算項目の追加
+    - Motif Info.
+    - Capability&Mechanism (Suggested by Motif)
 
 ### BRA Data Review Tool
 #### Resource
-- [BRA Data Review Tool (ver. 4.X) for v2-3 (Google Sheets)]
+- [BRA Data Review Tool (ver. 4.X) for v2-4 (Google Sheets)]
   - Attached container-bound scripts: メニューから 拡張機能 > Apps Script で表示
     - Hosting scripts source code on [GitHub Repository](https://github.com/yoshi-ono/BRA-Data-Review-Processing)
 
@@ -38,7 +34,3 @@
 - [BRA data: Error code List (Master) (Google Sheets)](https://docs.google.com/spreadsheets/d/1mCQOmjBRIx-k12a2x8uV3aSKKZ5dDW0na4bVnZtAzhM/edit?usp=drive_link)
 #### Main changes
 - 自動審査エラーコードの追加
-  - Circuits
-    - ErrorCode: 105
-  - FRG
-    - ErrorCode: 448, 449
